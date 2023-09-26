@@ -1,0 +1,31 @@
+
+{{#each news}}
+
+<li class="news-item">
+    <a href="{{url}}"></a>
+    <div class="cnt-block equal-hight" style="height: 349px;">
+
+      <figure><img
+
+          src={{urlToImage}}
+
+          class="img-responsive" alt=""></figure>
+
+      <h3><a href="">{{title}}</a></h3>
+
+      <div class="creador">
+
+        <p>{{autor}}</p>
+
+      </div>
+
+      <div class="content">
+
+        <p>{{content}}</p>
+
+      </div>
+
+      </div>
+
+  </li>
+{{/each}}
