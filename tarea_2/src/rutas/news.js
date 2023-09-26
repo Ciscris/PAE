@@ -3,4 +3,6 @@ const{Router}=require('express');
 const router= Router()
 const controller=require('./../controllers/news.controller');
 
-router.get('/',controller.search)
+router.get('/',controller.search);
+
+module.exports= router;
